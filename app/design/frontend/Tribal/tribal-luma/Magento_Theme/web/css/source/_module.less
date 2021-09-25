@@ -1,14 +1,38 @@
-// /**
-//  * Copyright © Magento, Inc. All rights reserved.
-//  * See COPYING.txt for license details.
-//  */
+
 
 @import 'module/_collapsible_navigation.less';
 
 //
-//  Theme variables
+//  Tribal Colors
 //  _____________________________________________
+//
+//  Color nesting
+//  ---------------------------------------------
 
+
+@orante_tribal:#ef5a35;
+@black_tribal:#0d0d0d;
+@theme__color__primary: @black_tribal;
+@theme__color__primary-alt: @black_tribal;
+@theme__color__secondary: @orante_tribal;
+
+@primary__color: @black_tribal;
+@primary__color__dark: darken(@primary__color, 35%);
+@primary__color__darker: darken(@primary__color, 13.5%);
+@primary__color__lighter: lighten(@primary__color, 29%); 
+@primary__color__light: lighten(@primary__color, 45%); 
+
+@secondary__color: @orante_tribal;
+@secondary__color__light: lighten(@secondary__color, 5%);
+
+
+button{
+    background-color:@secondary__color;
+}
+
+body > div.page-wrapper > header > div.panel.wrapper > div{
+    background-color:@primary__color
+}
 //  Messages
 @message-global-note__color: @text__color;
 @message-global-note__background: @color-yellow-light2;

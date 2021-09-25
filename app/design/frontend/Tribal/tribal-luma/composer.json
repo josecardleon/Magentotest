@@ -1,5 +1,5 @@
 {
-    "name": "magento/tribal_luma",
+    "name": "magento/theme-frontend-luma",
     "description": "N/A",
     "config": {
         "sort-packages": true

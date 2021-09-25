@@ -6,4 +6,4 @@
 
 use \Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Tribal/tribal_luma', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Tribal/tribal-luma', __DIR__);
